@@ -24,7 +24,7 @@ export const ContactUs = () => {
     setFormdata({ loading: true });
 
     try {
-      const response = await axios.post('https://portfolio-backend-henna-seven.vercel.app/contact/add', {
+      const response = await axios.post('https://backend-verse.vercel.app/contact/add', {
         name: formData.name,
         email: formData.email,
         contact: formData.contact,
